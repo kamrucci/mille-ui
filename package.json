@@ -1,10 +1,12 @@
 {
-  "name": "@mille-ui/mono",
+  "name": "@kamrucci/ui",
   "version": "0.1.0",
   "description": "1. react components 2. webpack 4. typescript 3. sass support",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:mono": "npm publish",
+    "publish:components": "npm publish -w @mille-ui/components"
   },
   "repository": {
     "type": "git",

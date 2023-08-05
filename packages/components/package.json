@@ -1,5 +1,5 @@
 {
-  "name": "@mille-ui/components",
+  "name": "@kamrucci/components",
   "version": "0.1.0",
   "description": "",
   "module": "dist/components.bundle.min.js",
