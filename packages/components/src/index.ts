@@ -1,2 +1,3 @@
-export { default } from './Header';
-export { Header } from './Header';
+import { default as Header } from './Header/Header';
+
+export { Header };
