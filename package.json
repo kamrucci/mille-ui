@@ -1,0 +1,22 @@
+{
+  "name": "@mille-ui/mono",
+  "version": "0.1.0",
+  "description": "1. react components 2. webpack 4. typescript 3. sass support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamrucci/mille-ui.git"
+  },
+  "author": "lukasz kamrowski <lukasz@manuko.dev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamrucci/mille-ui/issues"
+  },
+  "homepage": "https://github.com/kamrucci/mille-ui#readme",
+  "workspaces": [
+    "./packages/*"
+  ]
+}
