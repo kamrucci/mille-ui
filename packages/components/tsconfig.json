@@ -1,22 +1,20 @@
 {
     "compilerOptions": {
-        "lib": [
-            "es2020",
-            "dom"
-        ],
-        "outDir": "./dist/",
-        "sourceMap": true,
-        "noImplicitAny": true,
-        "module": "CommonJS",
         "target": "es5",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        // Added
         "jsx": "react",
-        "allowJs": true,
+        "module": "ESNext",
         "declaration": true,
+        "declarationDir": "types",
+        "sourceMap": true,
+        "outDir": "dist",
         "moduleResolution": "node",
-        "types": [
-            "node",
-            "react"
-        ]
+        "allowSyntheticDefaultImports": true,
+        "emitDeclarationOnly": true,
     },
     "include": [
         "./src/**/*.ts*"
