@@ -5,10 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:mono": "npm publish",
-    "build:components": "npm run build -w @kamrucci/components",
-    "publish:components": "npm publish -w @kamrucci/components --access public",
-    "publish:utils": "npm publish -w @kamrucci/utils --access public"
+    "publish": "npm publish",
+    "components:build": "npm run build -w @kamrucci/components",
+    "components:publish": "npm publish -w @kamrucci/components --access public",
+    "ui:build": "npm run build -w @kamrucci/components-ui",
+    "ui:publish": "npm publish -w @kamrucci/components-ui --access public",
+    "ui:storybook": "npm run storybook -w @kamrucci/components-ui",
+    "utils:publish": "npm publish -w @kamrucci/utils --access public"
   },
   "repository": {
     "type": "git",

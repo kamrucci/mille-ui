@@ -1,8 +1,8 @@
 {
   "name": "@kamrucci/components",
-  "version": "0.1.14",
+  "version": "0.1.16",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "build": "webpack",
     "build-watch": "webpack --watch",
@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "repository": {
     "type": "git",
