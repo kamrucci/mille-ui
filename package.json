@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish:mono": "npm publish",
+    "build:components": "npm run build -w @kamrucci/components",
     "publish:components": "npm publish -w @kamrucci/components --access public",
     "publish:utils": "npm publish -w @kamrucci/utils --access public"
   },

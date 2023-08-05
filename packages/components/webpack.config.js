@@ -1,4 +1,5 @@
-const path = require("path")
+const path = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: "production",
@@ -14,10 +15,20 @@ module.exports = {
             },
         ],
     },
-    output: {
-        filename: "components.bundle.min.js",
-        library: 'fstrComponents',
-        libraryTarget: 'umd',
-        clean: true
+    watchOptions: {
+        aggregateTimeout: 600,
+        poll: 700
     },
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'public'),
+        },
+        compress: true,
+        port: 3001,
+    },
+    output: {
+        path: path.resolve(__dirname, './dist'),
+        filename: 'index.js',
+    },
+    plugins: [new HtmlWebpackPlugin()]
 }
