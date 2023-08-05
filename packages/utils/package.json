@@ -1,0 +1,23 @@
+{
+  "name": "@kamrucci/utils",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "build-watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamrucci/mille-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamrucci/mille-ui/issues"
+  },
+  "homepage": "https://github.com/kamrucci/mille-ui#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
