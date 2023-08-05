@@ -10,6 +10,4 @@ const Header: React.FC<HeaderProps> = ({ text = "" }) => {
     )
 }
 
-export {
-    Header
-}
+export default Header;
