@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish:mono": "npm publish",
-    "publish:components": "npm publish -w @kamrucci/components --access public"
+    "publish:components": "npm publish -w @kamrucci/components --access public",
+    "publish:utils": "npm publish -w @kamrucci/utils --access public"
   },
   "repository": {
     "type": "git",
