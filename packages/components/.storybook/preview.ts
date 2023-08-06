@@ -1,4 +1,5 @@
 import type { Preview } from "@storybook/react";
+import "@kamrucci/styles/scss/mille.scss";
 
 const preview: Preview = {
   parameters: {

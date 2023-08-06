@@ -9,6 +9,7 @@
     "storybook": "npm run storybook -w @kamrucci/components",
     "components:build": "npm run build -w @kamrucci/components",
     "components:publish": "npm publish -w @kamrucci/components --access public",
+    "styles:publish": "npm publish -w @kamrucci/styles --access public",
     "utils:publish": "npm publish -w @kamrucci/utils --access public"
   },
   "repository": {

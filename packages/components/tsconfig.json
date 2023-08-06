@@ -12,7 +12,12 @@
     "moduleResolution": "node",
     "emitDeclarationOnly": true,
     "allowSyntheticDefaultImports": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "styles": [
+        "./node_modules/@kamrucci/styles/scss"
+      ]
+    }
   },
   "exclude": [
     "dist",
