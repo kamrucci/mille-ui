@@ -27,6 +27,7 @@
   "author": "Lukasz Kamrowski",
   "license": "MIT",
   "dependencies": {
+    "@kamrucci/utils": "^0.1.3",
     "prop-types": "^15.8.1",
     "styled-components": "^5.3.10"
   },
