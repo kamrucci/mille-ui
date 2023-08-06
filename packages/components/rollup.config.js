@@ -27,15 +27,11 @@ export default [
       peerDepsExternal(),
       resolve(),
       commonjs(),
-      // scss({
-      //   sourceMap: true,
-      //   outputStyle: 'compressed'
-      // }),
       postcss({
         modules: true,
         inject: true,
         extract: true,
-        // minimize: true,
+        minimize: true,
         use: [
           [
             "sass",
