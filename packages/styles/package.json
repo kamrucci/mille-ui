@@ -3,21 +3,31 @@
   "version": "0.1.0",
   "description": "",
   "repository": "https://github.com/kamrucci/mille-ui",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types.d.ts",
+  "style": "dist/mille.css",
+  "sass": "src/mille.scss",
   "scripts": {
     "test": "jest",
     "build": "rollup -c --bundleConfigAsCjs",
     "publish": "npm publish --access public"
   },
   "files": [
-    "dist"
+    "dist",
+    "scss"
   ],
   "keywords": [],
   "author": "Lukasz Kamrowski",
   "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {},
-  "peerDependencies": {}
+  "devDependencies": {
+    "@babel/cli": "^7.22.9",
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@popperjs/core": "^2.11.8",
+    "@rollup/plugin-babel": "^6.0.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "postcss-cli": "^10.1.0",
+    "rollup": "^3.27.0",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.64.2"
+  }
 }
