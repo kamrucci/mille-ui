@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "npm publish",
+    "storybook": "npm run storybook -w @kamrucci/components-ui",
     "components:build": "npm run build -w @kamrucci/components",
     "components:publish": "npm publish -w @kamrucci/components --access public",
     "ui:build": "npm run build -w @kamrucci/components-ui",
