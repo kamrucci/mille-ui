@@ -23,5 +23,8 @@
   "homepage": "https://github.com/kamrucci/mille-ui#readme",
   "workspaces": [
     "./packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "rollup-plugin-postcss": "^4.0.2"
+  }
 }
