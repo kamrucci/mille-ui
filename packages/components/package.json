@@ -1,6 +1,6 @@
 {
   "name": "@kamrucci/components",
-  "version": "0.2.0-alpha",
+  "version": "0.3.0",
   "description": "A demo on how to create a React UI component library using React, Typescript, Rollup, Storybook, Jest and React testing library.",
   "repository": "https://github.com/kamrucci/mille-ui",
   "main": "dist/cjs/index.js",
