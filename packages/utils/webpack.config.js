@@ -16,7 +16,7 @@ function createDevOrProdBuild(_, args) {
                 filename: 'utils.' + BUILD_MODE + '.js',
                 library: {
                     name: 'utils',
-                    type: 'umd',
+                    type: "umd",
                 },
                 globalObject: 'this'
             },
